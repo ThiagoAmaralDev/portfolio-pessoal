@@ -4,39 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Thiago Amaral - Portfólio</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
         <nav class="nav-bar">
-            <a href="#"><img src="img/minha-foto.jpg" alt="foto-de-perfil" id="foto-minha"></a>
-            <a href="#">Home</a>
-            <a href="#">Sobre mim</a>
-            <a href="#">Projetos</a>
-            <a href="#">Habilidades</a>
+            
+             <a href="index.html"><img src="img/minha-foto.jpg" alt="foto-de-perfil" id="foto-minha"></a>
+
+            <ul class="nav-links">
+                <li>
+                    <a href="#sec-home">Home</a>
+                </li>
+                
+                <li>
+                    <a href="#sec-sobre-mim">Sobre mim</a>
+                </li>
+                <li>
+                    <a href="#sec-projetos">Projetos</a>
+                </li>
+                
+                
+            </ul>
         </nav>
     </header>
 
     <main>
-        <section id="home">
+        <!-- HOME   -->
+        <section id="sec-home">
             <div id="home-info">
                 <!--Quero botar um efeito no span-->
                 <h1 class="titulo-principal">Olá, meu nome é Thiago Amaral, <span class="efeito">desenvolvedor fullstack</span></h1>
-                <span class="resumo">
+                <p class="resumo">
                     <a href="#" target="_blank">Veja meu currículo</a> para ver de maneira tradicional meu perfil profissional.
-                </span>
+                </p>
             </div>
             <!--FOTO DE PERFIL??????????????????????????????-->
             <div class="perfil">
-
+                <img src="img/minha-foto2.jpg" alt="foto-de-perfil">
             </div>
         </section>
 
-        <section id="sobre-mim">
+        <!-- SOBRE MIM   -->
+
+        <section id="sec-sobre-mim">
             <h2>Sobre</h2>
             <div class="sobre-info">
-                <span class="resumo">
+                <p class="resumo">
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati omnis repellat temporibus, illo error provident, nobis quae neque ducimus alias ipsa ea delectus unde, vero vel nisi rem ut quas! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, ut nisi voluptatibus debitis cumque magni inventore, a vero animi itaque, corporis iure ad? Voluptatem enim itaque ullam dolores tempore cupiditate!
-                </span>
+                </p>
             </div>
 
             <div class="tecnlogias">
@@ -53,20 +69,38 @@
             </div>
         </section>
 
-        <section id="projetos">
+        <!-- PROJETOS   -->
+
+        <section id="sec-projetos">
             <h1>Meus Projetos</h1>
             <div class="resumo-projetos">
                 <p>Minha coleção e inovações em projetos.</p>
             </div>
 
-            
+            <div class="projetos">
+                <div class="projeto">
+                    <div class="logo-projeto">
+                        <h4 class="titulo-projeto">
+                            Projeto 1
+                        </h4>
+                        <img src="img/" alt="projeto1">
+                        <p class="descricao-projeto">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem ad fugiat error. Impedit minima, ipsa tempore at sit laborum ducimus qui dolore eaque voluptatibus atque dolorem, ratione repellendus quidem quos!
+                        </p>
+                        <p class="tecnologia-projeto">
+                            Tecnologias: HTML, e CSS
+                        </p>
+                        <div class="projeto-links">
+                            <a href="#">Demo</a>
+                            <a href="#">Código</a>
+            </div>
+                    </div>
+                </div>
+            </div>
 
             
         </section>
 
-        <section id="contato">
-            
-        </section>
     </main>
 </body>
 </html>
