@@ -112,3 +112,39 @@ body {
     height: 200px;
     border-radius: 50%;
 }
+
+/* SOBRE-MIM */
+
+/* DIV SOBRE-INFO */
+
+#sec-sobre-mim {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 3em;
+    border: 1px solid red;
+
+    
+}
+
+#sec-sobre-mim h2 {
+    margin-top: 1.1em;
+}
+
+.sobre-info {
+    max-width: 800px;
+    margin-bottom: 40px;
+    padding: 1em;
+    
+    
+}
+
+/* DIV TECNOLOGIAS*/
+
+.tecnlogias {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+    border: 1px solid red;
+    
+}
+    
