@@ -17,8 +17,6 @@ body {
     justify-content: space-between;
     padding: 25px 20px;
 
-    /* ESTILO */
-
     background: #333;
     border-bottom: 1px solid #fff
 }
@@ -77,11 +75,8 @@ body {
 /* HOME */
 
 #sec-home {
-    /* TAMANHO */
-    
 
     display: flex;
-    border: 1px solid red;
     margin: 3em;
     justify-content: space-between;
     padding: 10vh 3em;
@@ -89,19 +84,27 @@ body {
 }
 
 #home-info {
-    /*Só para aprender flexbox (poderia deixar sem nada)*/
+    
     display: flex;
     flex-direction: column; 
     justify-content: center; 
     
 }
 
+ /* .titulo-principal {
+    
+ } */
+
 /* .resumo {
     
 } */
 
-
-
+.link-redes {
+    display: flex;
+    list-style: none;
+    margin-top: 10px;
+    gap: 10px;
+}
 
 
 #foto-minha-perfil {
